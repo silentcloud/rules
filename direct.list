@@ -1,0 +1,26 @@
+URL-REGEX,^http:\/\/.+\/cgi-bin\/micromsg-bin\/msgshareupload$
+DOMAIN-SUFFIX,map.baidu.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN,music.163.com
+DOMAIN,music.126.net
+DOMAIN-SUFFIX,91yun.co
+# ali
+DOMAIN-SUFFIX, worldfirst.com
+DOMAIN-SUFFIX, zyla.com
+DOMAIN-SUFFIX, alipay.com
+DOMAIN-SUFFIX, taobao.com
+DOMAIN-SUFFIX, baidu.com
+DOMAIN,lua-hz.hz.ali.com
+DOMAIN,gw.alipayobjects.com
+DOMAIN,sc.wf.taobao.org
+DOMAIN-KEYWORD,tbsite
+DOMAIN-SUFFIX,cloud.aliyun-inc.com
+DOMAIN-SUFFIX, marmot-cloud.com
+
+# apple
+DOMAIN-SUFFIX,icloud-content.com
+
+#jichang
+DOMAIN-SUFFIX, pqjc.site
+DOMAIN-SUFFIX, yfjc.cfd
+DOMAIN-SUFFIX, smallstrawberry.com
