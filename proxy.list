@@ -1,3 +1,4 @@
+DOMAIN, burn.hair
 DOMAIN,mmbiz.qpic.cn
 DOMAIN-SUFFIX,dailyuploads.net
 DOMAIN,cdnjs.cloudflare.com
@@ -32,6 +33,9 @@ DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,kdw019.com
 DOMAIN,stun.ekiga.net
 DOMAIN-SUFFIX,bind.com
+DOMAIN-SUFFIX,figma.com
+DOMAIN,stun.ekiga.net
+DOMAIN-SUFFIX,bind.com
 
 ## 抗 DNS 污染
 DOMAIN-KEYWORD,amazon
@@ -57,6 +61,7 @@ IP-CIDR,91.108.8.0/21,no-resolve
 IP-CIDR,91.108.16.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR6,2001:67c:4e8::/16,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
@@ -80,3 +85,25 @@ IP-CIDR,203.208.50.0/24,no-resolve
 IP-CIDR,220.181.174.162/32,no-resolve
 IP-CIDR,220.181.174.226/32,no-resolve
 IP-CIDR,220.181.174.34/32,no-resolve
+
+# apple
+DOMAIN-SUFFIX, icloud-content.com
+DOMAIN-SUFFIX, icloud.com
+
+# other
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN,www.google.com
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,rongxingvr.cc
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+
+
+DOMAIN-SUFFIX,l.google.com // Added for: stun.l.google.com:19302
+DOMAIN-SUFFIX,googleapis.com // Added for: play.googleapis.com:443
+DOMAIN-SUFFIX,googleusercontent.com // Added for: lh3.googleusercontent.com:443
+DOMAIN-SUFFIX,spotify.com // Added for: https://spclient.wg.spotify.com/gabo-receiver-service/public/v3/events
+IP-CIDR,5.28.195.1/32 // Added for: 5.28.195.1:443 (www.google.com)
