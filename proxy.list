@@ -1,4 +1,4 @@
-DOMAIN, burn.hair
+DOMAIN,burn.hair
 DOMAIN,mmbiz.qpic.cn
 DOMAIN-SUFFIX,dailyuploads.net
 DOMAIN,cdnjs.cloudflare.com
@@ -106,4 +106,112 @@ DOMAIN-SUFFIX,l.google.com // Added for: stun.l.google.com:19302
 DOMAIN-SUFFIX,googleapis.com // Added for: play.googleapis.com:443
 DOMAIN-SUFFIX,googleusercontent.com // Added for: lh3.googleusercontent.com:443
 DOMAIN-SUFFIX,spotify.com // Added for: https://spclient.wg.spotify.com/gabo-receiver-service/public/v3/events
-IP-CIDR,5.28.195.1/32 // Added for: 5.28.195.1:443 (www.google.com)
+IP-CIDR,5.28.195.1/32 // Added for: 5.28.195.1:443 (www.google.com)DOMAIN,burn.hair
+DOMAIN,mmbiz.qpic.cn
+DOMAIN-SUFFIX,dailyuploads.net
+DOMAIN,cdnjs.cloudflare.com
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,wikiwand.com
+DOMAIN-SUFFIX,btbbt.cc
+DOMAIN-SUFFIX,btbbt.la
+DOMAIN,ant.design
+DOMAIN-SUFFIX,travis-ci.org
+DOMAIN-SUFFIX,yarnpkg.com
+DOMAIN-SUFFIX,genymotion.com
+DOMAIN-SUFFIX,github.com
+DOMAIN,frontify.com
+DOMAIN-SUFFIX,tsdpm.org
+DOMAIN-SUFFIX,emu999.net
+DOMAIN,production-assets.codepen.io
+DOMAIN-SUFFIX,sinon.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,aotu.io
+DOMAIN-SUFFIX,vsassets.io
+DOMAIN-SUFFIX,gallery.vsassets.io
+DOMAIN-SUFFIX,gallerycdn.vsassets.io
+DOMAIN-SUFFIX,paddle.com
+DOMAIN-SUFFIX,newrelic.com
+DOMAIN-SUFFIX,nsbeta.info
+DOMAIN-SUFFIX,he.net
+DOMAIN-KEYWORD,dropbox
+DOMAIN-SUFFIX,91porn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,t66y.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,kdw019.com
+DOMAIN,stun.ekiga.net
+DOMAIN-SUFFIX,bind.com
+DOMAIN-SUFFIX,figma.com
+DOMAIN,stun.ekiga.net
+DOMAIN-SUFFIX,bind.com
+
+## 抗 DNS 污染
+DOMAIN-KEYWORD,amazon
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,facebook
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,dropbox
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-KEYWORD,blogspot
+DOMAIN-SUFFIX,youtu.be
+
+# Telegram
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.org
+IP-CIDR,109.239.140.0/24
+IP-CIDR,91.108.4.0/22
+IP-CIDR,91.108.8.0/21
+IP-CIDR,91.108.16.0/22
+IP-CIDR,91.108.56.0/22
+IP-CIDR,149.154.160.0/20
+IP-CIDR6,2001:67c:4e8::/16
+IP-CIDR6,2001:67c:4e8::/48
+IP-CIDR6,2001:b28:f23d::/48
+IP-CIDR6,2001:b28:f23f::/48
+
+# Google 中国服务 services.googleapis.cn
+IP-CIDR,120.232.181.162/32
+IP-CIDR,120.241.147.226/32
+IP-CIDR,120.253.253.226/32
+IP-CIDR,120.253.255.162/32
+IP-CIDR,120.253.255.34/32
+IP-CIDR,120.253.255.98/32
+IP-CIDR,180.163.150.162/32
+IP-CIDR,180.163.150.34/32
+IP-CIDR,180.163.151.162/32
+IP-CIDR,180.163.151.34/32
+IP-CIDR,203.208.39.0/24
+IP-CIDR,203.208.40.0/24
+IP-CIDR,203.208.41.0/24
+IP-CIDR,203.208.43.0/24
+IP-CIDR,203.208.50.0/24
+IP-CIDR,220.181.174.162/32
+IP-CIDR,220.181.174.226/32
+IP-CIDR,220.181.174.34/32
+
+# apple
+DOMAIN-SUFFIX, icloud-content.com
+DOMAIN-SUFFIX, icloud.com
+
+# other
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN,www.google.com
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,rongxingvr.cc
+IP-CIDR,109.239.140.0/24
+IP-CIDR,149.154.160.0/20
+
+
+DOMAIN-SUFFIX,l.google.com 
+DOMAIN-SUFFIX,googleapis.com 
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,spotify.com
+IP-CIDR,5.28.195.1/32
