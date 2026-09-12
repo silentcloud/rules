@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN,music.163.com
 DOMAIN,music.126.net
 DOMAIN-SUFFIX,91yun.co
+
 # ali
 DOMAIN-SUFFIX, worldfirst.com
 DOMAIN-SUFFIX, zyla.com
@@ -12,15 +13,108 @@ DOMAIN-SUFFIX, taobao.com
 DOMAIN-SUFFIX, baidu.com
 DOMAIN,lua-hz.hz.ali.com
 DOMAIN,gw.alipayobjects.com
+DOMAIN,render-intl.alipay.com
+DOMAIN,gw-intl.alipay.com
 DOMAIN,sc.wf.taobao.org
 DOMAIN-KEYWORD,tbsite
 DOMAIN-SUFFIX,cloud.aliyun-inc.com
-DOMAIN-SUFFIX, marmot-cloud.com
+DOMAIN-SUFFIX,worldfirst.com.cn
+DOMAIN-SUFFIX,ismart.alipay.com
+
 
 # apple
-DOMAIN-SUFFIX,icloud-content.com
+DOMAIN,sequoia.apple.com # apple 翻译
+DOMAIN,seed-sequoia.siri.apple.com # apple 翻译
+DOMAIN, gsa.apple.com
+DOMAIN,sequoia.apple.com # apple 翻译
+DOMAIN,seed-sequoia.siri.apple.com # apple 翻译
+# Keep portal checks on the local network even if VIF captures the connection.
+DOMAIN,captive.apple.com
+# Apply these routes only if Surge actually captures APNs or messaging traffic.
+# Do not enable include-all-networks or include-apns just to use this fragment.
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,push-apple.com
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+DOMAIN-SUFFIX,ess.apple.com
+DOMAIN,albert.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,time.apple.com
+DOMAIN,time-ios.apple.com
+DOMAIN,time-macos.apple.com
+# Certificate checks should remain reachable without interception or blocking.
+DOMAIN,certs.apple.com
+DOMAIN,crl.apple.com
+DOMAIN,ocsp.apple.com
+DOMAIN,ocsp2.apple.com
+DOMAIN,valid.apple.com
+# Keep mainland-specific services and location services on their local path.
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,cn.apple.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,apzones.com
+DOMAIN,api.smoot.apple.cn
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,maps.apple.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN,weather-data.apple.com
+DOMAIN,weather-map.apple.com
+DOMAIN,weather-map2.apple.com
+DOMAIN,weatherkit.apple.com
+DOMAIN,guzzoni.apple.com
+# Keep Private Relay separate from optional iCloud proxying.
+# DIRECT does not disable Private Relay or make it available in unsupported regions.
+DOMAIN,mask.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask-api.icloud.com
+
+# Keep bulk downloads direct even when store or developer pages use the proxy.
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,osxapps.itunes.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,appldnld.apple.com
+DOMAIN,appldnld.apple.com.edgesuite.net
+DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,swdist.apple.com
+DOMAIN,swdownload.apple.com
+DOMAIN,swscan.apple.com
+DOMAIN,oscdn.apple.com
+DOMAIN,osrecovery.apple.com
+DOMAIN,configuration.apple.com
+DOMAIN,updates.cdn-apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,download.developer.apple.com
+DOMAIN,devimages-cdn.apple.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple-dns.net
 
 #jichang
 DOMAIN-SUFFIX, pqjc.site
 DOMAIN-SUFFIX, yfjc.cfd
 DOMAIN-SUFFIX, smallstrawberry.com
+
+
+#ipv6
+IP-CIDR6,2408:8266::/16,no-resolve
+IP-CIDR6,240c:409f::3:0:ca/16,no-resolve 
+IP-CIDR6,2606:1980:4::8/16,no-resolve
+IP-CIDR6,2a01:53c0:ff0f::2e/16,no-resolve
+IP-CIDR6,240d:c000::1/64,no-resolve
+#IP-CIDR6,2409::/8,no-resolve
+
+DOMAIN,wxst.xsyyzx.top
+DOMAIN-SUFFIX,pan.wo.cn
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,helpall.men
+DOMAIN-SUFFIX,cztv.com
+DOMAIN-SUFFIX,ailbaba.me
+DOMAIN-SUFFIX,bcebos.com
+IP-CIDR,180.188.22.219/32,no-resolve
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,ffzy-online3.com
+DOMAIN,wifi.airchina.com
+IP-CIDR,202.189.6.0/24,no-resolve
+IP-CIDR,182.254.116.0/24,no-resolve
+IP-CIDR,198.11.189.91/32,no-resolve
+DOMAIN-SUFFIX,ap4r.com
